@@ -1223,6 +1223,7 @@ ul {
 .card-item {
   width: 100%;
   display: flex;
+  margin-bottom: 115px;
 }
 .card-item__gallery {
   width: 50%;
@@ -1244,4 +1245,68 @@ ul {
 .card-item__price::after {
   width: 12px;
   height: 18px;
+}
+.characteristics__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #444240;
+}
+.characteristics__btn {
+  padding: 23px;
+  width: 185px;
+}
+.discription__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+.viewed {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.viewed__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.viewed__item {
+  position: relative;
+  width: 360px;
+  height: 375px;
+  display: flex;
+  justify-content: space-between;
+}
+.viewed__item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #444240;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.viewed__menu {
+  display: flex;
+  list-style: none;
+}
+.viewed__menu-item {
+  margin-right: 16px;
+}
+.viewed__menu-item:last-child {
+  margin-right: 0;
+}
+.viewed__img {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
 }
