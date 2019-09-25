@@ -1223,7 +1223,7 @@ ul {
 .card-item {
   width: 100%;
   display: flex;
-  margin-bottom: 115px;
+  margin-bottom: 55px;
 }
 .card-item__gallery {
   width: 50%;
@@ -1246,6 +1246,9 @@ ul {
   width: 12px;
   height: 18px;
 }
+.card-item__characteristics {
+  padding: 85px 60px 50px;
+}
 .characteristics__title {
   font-family: Roboto;
   font-style: normal;
@@ -1267,8 +1270,10 @@ ul {
   color: #000000;
 }
 .viewed {
-  margin-bottom: 50px;
   width: 100%;
+}
+.viewed__title {
+  margin-bottom: 50px;
 }
 .viewed__list {
   list-style: none;
