@@ -1,0 +1,143 @@
+.filter {
+    width: 235px;
+    display: block;
+}
+
+.filter__list {
+    list-style: none;
+}
+
+// .filter__item {
+// }
+
+.filter__block {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.filter__btn {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: transparent;
+    border: none;
+
+
+    cursor: pointer;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+
+
+        width: 12px;
+        height: 1px;
+
+        background-color: #1B1A17;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+
+
+
+        width: 12px;
+        height: 1px;
+
+        background-color: #1B1A17;
+
+    }
+}
+
+.filter__title {
+            
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #444240;
+
+}
+
+
+.filter__checkbox-text {
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+    line-height: 14px;
+    color: #6F6E6D;
+
+
+
+    &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 13px;
+        width: 13px;
+        border: 1px solid #909090;
+        box-sizing: border-box;
+    }
+
+    &::after {
+        display: none;
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 8px;
+        height: 7px;
+        background-image: url(../img/jackdaw.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+
+.filter__label {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+
+    
+
+    
+    margin-bottom: 20px;
+}
+
+.filter__checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.filter__label .filter__checkbox:checked ~ .filter__checkbox-text::after {
+    display: block;
+}
+
+.filter__label .filter__checkbox:checked ~ .filter__checkbox-text::before {
+    background-color: #6F6E6D;
+
+}

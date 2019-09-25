@@ -1,0 +1,61 @@
+.watchbands {
+    position: relative;
+    width: 100%;
+    & .view-all-link {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+}
+.watchbands__list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.watchbands__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 340px;
+    height: 370px;
+    position: relative;
+}
+
+.watchbands__img-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.watchband__menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.watchband__menu-item {
+    margin-right: 16px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.watchbands__item-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #444240;
+
+
+    margin: 0;
+    margin-bottom: 7px;
+}

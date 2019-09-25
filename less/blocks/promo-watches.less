@@ -1,0 +1,55 @@
+.promo-watches {
+    position: relative;
+    z-index: 1;
+}
+.promo-watches__item {
+    top: -20px;
+    left: 220px;
+    position: relative;
+    z-index: 2;
+}
+
+.promo-watches__stats,
+.promo-watches__price {
+    position: absolute;
+    margin: 0;
+    
+}
+
+.promo-watches__price {
+    left: -50px;
+    top: 130px;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    &::after {
+        width: 10px;
+        height: 13px;
+    }
+    &::before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: #8B8371;
+        position: absolute;
+        right: -50px + -15px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+}
+.promo-watches__stats {
+    bottom: 110px;
+    right: -50px;
+    color: #1B1A17;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    &::before {
+        .newLeftLine(50px);
+    }
+}
