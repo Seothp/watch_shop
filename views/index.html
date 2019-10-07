@@ -15,23 +15,34 @@
         <header class="header header--index">
             <nav class="navigation">
                 <div class="navigation--left">
-                    <a href="#" class="burger-menu">
-                        <span class="burger-menu__line"></span>
-                        <span class="burger-menu__line"></span>
-                        <span class="burger-menu__line"></span>
-                    </a>
+                    <div class="burger-menu" id="burger-menu">
+                        <button class="burger-menu__btn" id="burger-menu__btn">
+                            <span class="burger-menu__line"></span>
+                            <span class="burger-menu__line"></span>
+                            <span class="burger-menu__line"></span>
+                        </button>
+                        <nav class="burger-menu__nav">
+                            <ul class="burger-menu__list" id="burger-menu__list">
+                                <li class="burger-menu__item">
+                                    <a href="catalog.html" class="burger-menu__link">Каталог</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Акции</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Доставка</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Контакты</a> 
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                     <a href="#" class="logo">
                         <img src="../img/logo.svg" alt="Логотип" width="104" height="26">
                     </a>
                 </div>
-                <!-- <div class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">Каталог</li>
-                        <li class="menu__item">Акции</li>
-                        <li class="menu__item">Доставка</li>
-                        <li class="menu__item">Контакты</li>
-                    </ul>
-                </div> -->
+                
                 <div class="user-menu">
                     <ul class="user-menu__list">
                         <li class="user-menu__item">
@@ -77,7 +88,7 @@
                         Швейцарские часы в наличии в Москве</br>
                         и с доставкой по всему миру
                     </p>
-                    <a href="#" class="btn">Смотреть каталог</a>
+                    <a href="catalog.html" class="btn">Смотреть каталог</a>
                 </section>
                 <section class="promo-watches">
                     <div class="ellipse-wrapper">
@@ -140,7 +151,7 @@
                     <p class="text banner__text">
                         Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.
                     </p>
-                    <a href="#" class="btn btn--beige">Смотреть каталог</a>
+                    <a href="catalog.html" class="btn btn--beige">Смотреть каталог</a>
                 </div>
                 <div class="banner__menu">
                     <button class="banner__back">Назад</button>
