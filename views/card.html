@@ -19,6 +19,29 @@
                         <img src="../img/logo.svg" alt="Логотип" width="104" height="26">
                     </a>
                 </div>
+                <div class="burger-menu" id="burger-menu" style="display: none">
+                        <button class="burger-menu__btn" id="burger-menu__btn">
+                            <span class="burger-menu__line"></span>
+                            <span class="burger-menu__line"></span>
+                            <span class="burger-menu__line"></span>
+                        </button>
+                        <nav class="burger-menu__nav">
+                            <ul class="burger-menu__list" id="burger-menu__list">
+                                <li class="burger-menu__item">
+                                    <a href="catalog.html" class="burger-menu__link">Каталог</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Акции</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Доставка</a> 
+                                </li>
+                                <li class="burger-menu__item">
+                                    <a href="#" class="burger-menu__link">Контакты</a> 
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 <div class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -77,24 +100,16 @@
             </div>
 
             <section class="card-item">
-                <div class="gallery card-item__gallery">
-                    <button class="btn-previous"></button>
-                    <button class="btn-next"></button>
-                    <div class="gallery__img-wrapper card-item__img-wrapper">
-                        <img src="" alt="" class="gallery__img card-item__img">
+                <div class="gallery" id="gallery">
+                    <div class="gallery__main-item" id="gallery__main-item">
+                        <img  src="/img/gallery_watches_1.jpg" alt="" width="525" height="500" id="gallery__main-img">
                     </div>
-                    <div class="gallery__img-wrapper card-item__img-wrapper">
-                        <img src="" alt="" class="gallery__img card-item__img">
-                    </div>
-                    <div class="gallery__img-wrapper card-item__img-wrapper">
-                        <img src="" alt="" class="gallery__img card-item__img">
-                    </div>
-                    <div class="gallery__img-wrapper card-item__img-wrapper">
-                        <img src="" alt="" class="gallery__img card-item__img">
-                    </div>
-                    <div class="gallery__img-wrapper card-item__img-wrapper">
-                        <img src="" alt="" class="gallery__img card-item__img">
-                    </div>
+                    <ul class="gallery__list" id="gallery__list">
+                        <li class="gallery__item"><img src="/img/gallery_watches_1.jpg" alt="" class="gallery__img"></li>
+                        <li class="gallery__item"><img src="/img/gallery_watches_2.jpg" alt="" class="gallery__img"></li>
+                        <li class="gallery__item"><img src="/img/gallery_watches_3.jpg" alt="" class="gallery__img"></li>
+                        <li class="gallery__item"><img src="/img/gallery_watches_4.jpg" alt="" class="gallery__img"></li>
+                    </ul>
                 </div>
                 <div class="card-item__characteristics">
                     <h2 class="card-item__title">Kulte, 26 мм</h2>
