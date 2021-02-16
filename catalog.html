@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Conquest</title>
+</head>
+<body class="catalog__body">
+    <div class="container">
+        <header class="header header--index">
+            <nav class="navigation">
+                <div class="navigation--left">
+                    <a href="index.html" class="logo">
+                        <img src="../img/logo.svg" alt="Логотип" width="104" height="26">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user-menu">
+                    <ul class="user-menu__list">
+                        <li class="user-menu__item">
+                            <a href="#" class="user-menu__link"><span class="visually-hidden">Поиск</span>
+                                <img src="../img/search.svg" alt="Поиск" class="user-menu__icon" width="16" height="16">
+                            </a>    
+                        </li>
+                        <li class="user-menu__item">
+                            <a href="#" class="user-menu__link"><span class="visually-hidden">Избранное</span>
+                                <img src="../img/favorite.svg" alt="Избранное" class="user-menu__icon" width="19" height="16">
+                            </a>    
+                        </li>
+                        <li class="user-menu__item">
+                            <a href="#" class="user-menu__link"><span class="visually-hidden">Корзина</span>
+                                <img src="../img/basket.svg" alt="Корзина" class="user-menu__icon" width="18" height="16">
+                            </a>    
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main catalog__main">
+            <h1 class="visually-hidden">Каталог часов Conquest</h1>
+            <div class="pages">
+                <ul class="pages__list">
+                    <li class="pages__item">
+                        <a href="index.html" class="pages__link">Главная</a>
+                    </li>
+                    <li class="pages__item">
+                        <a href="#" class="pages__link">Каталог</a>
+                    </li>
+                    <li class="pages__item">
+                        <a href="#" class="pages__link">Мужские часы</a>
+                    </li>
+                </ul>
+            </div>
+            <h2 class="title catalog__title">Мужские часы</h2>
+            <div class="filter">
+                <div class="filter__cost filter__block">
+                    <h3 class="filter__title">Стоимость</h3>
+                    <button class="filter__btn"></button>
+                </div>
+                <div class="filter__brand-name filter__block">
+                    <h3 class="filter__title">Бренд</h3>
+                    <button class="filter__btn"></button>
+                    <ul class="filter__list">
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Techne</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Rado</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Bhigari</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Tissot</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Omega</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Montblanc</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__mechanism filter__block">
+                    <h3 class="filter__title">Механизм</h3>
+                    <button class="filter__btn"></button>
+                    <ul class="filter__list">
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Кварцевый</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Механический</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__material filter__block">
+                    <h3 class="filter__title">Материал</h3>
+                    <button class="filter__btn"></button>
+                    <ul class="filter__list">
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Сталь</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Титан</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Латунь</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Углепластик</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__color filter__block">
+                    <h3 class="filter__title">Цвет</h3>
+                    <button class="filter__btn"></button>
+                    <ul class="filter__list">
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Черный</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Белый</span>
+                            </label>
+                        </li>
+                        <li class="filter__item">
+                            <label class="filter__label">
+                                <input type="checkbox" class="filter__checkbox">
+                                <span class="filter__checkbox-text">Серый</span>
+                            </label>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <button type="button" class="btn btn--white">Сбросить фильтр</button>
+            </div>
+            <section class="watch-catalog">
+                <span class="watch-catalog__sort sort">
+                    <span class="watch-catalog__sort-text">Сортировать по:</span> 
+                    <select name="watch-catalog__sort" id="watch-catalog__sort" class="sort-param">
+                        <option value="popular" class="sort-param__item">популярности</option>
+                        <option value="price" class="sort-param__item">цене</option>
+                        <option value="rating" class="sort-param__item">рейтингу</option>
+                    </select>
+                </span>
+                <ul class="watch-catalog__list">
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                       <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                       <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                    <li class="watch-catalog__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watch-catalog__title">Techne</h3>
+                            <span class="watch-catalog__price price">12 700</span>
+                        </div>
+                        <ul class="watch-catalog__menu">
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watch-catalog__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watch-catalog__menu-item">
+                                <a href="#" class="watch-catalog__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watch-catalog__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watch-catalog__img-wrapper">
+                            <img src="../img/catalog_watch_1.png" alt="" class="watch-catalog__img">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="mailing">
+                <h2 class="visually-hidden">
+                    Рассылка
+                </h2>
+                <div class="mailing__content">
+                    <span class="mailing__text">
+                        Подписка на рассылку
+                    </span>
+                    <strong class="mailing__text mailing__text--strong">
+                        Получить скидку 10% на первую покупку
+                    </strong>
+                </div>
+                <form action="" class="mailing__form">
+                    <label for="" class="mailing__label">
+                        <span class="mailing__label-text">E-mail</span>
+                        <input type="email" class="mailing__input">
+                    </label>
+                    <button class="btn" type="submit">Подписаться</button>
+                </form>
+            </section>
+            <section class="watchbands">
+                <h2 class="watchbands__title title">Ремешки</h2>
+                <a href="#" class="view-all-link">Смотреть все</a>
+                <ul class="watchbands__list">
+                    <li class="watchbands__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watchbands__item-title">Georg jensen</h3>
+                            <span class="watchbands__price price">6 500</span>
+                        </div>
+                        <ul class="watchband__menu-list">
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watchbands__favorite" width="18" height="16">
+                                </a>
+                            </li>
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watchbands__basket" width="18" height="16">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watchbands__img-wrapper">
+                            <img src="../img/watchband_1.png" alt="" class="watchbands__img">
+                        </div>
+                    </li>
+                    <li class="watchbands__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watchbands__item-title">Georg jensen</h3>
+                            <span class="watchbands__price price">6 500</span>
+                        </div>
+                        <ul class="watchband__menu-list">
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watchbands__favorite">
+                                </a>
+                            </li>
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watchbands__basket">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watchbands__img-wrapper">
+                            <img src="../img/watchband_1.png" alt="" class="watchbands__img">
+                        </div>
+                    </li>
+                    <li class="watchbands__item">
+                        <div class="watch-catalog__item-characteristics">
+                            <h3 class="watchbands__item-title">Georg jensen</h3>
+                            <span class="watchbands__price price">6 500</span>
+                        </div>
+                        <ul class="watchband__menu-list">
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/favorite.svg" alt="Избранное" class="watchbands__favorite">
+                                </a>
+                            </li>
+                            <li class="watchband__menu-item">
+                                <a href="#" class="watchbands__link">
+                                    <img src="../img/basket.svg" alt="Корзина" class="watchbands__basket">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="watchbands__img-wrapper">
+                            <img src="../img/watchband_1.png" alt="" class="watchbands__img">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <section class="contacts footer__block">
+                <h3 class="visually-hidden">Контакты</h3>
+                <ul class="contacts__list footer__list">
+                    <li class="contacts__item footer__item">
+                        <a href="#" class="logo">
+                            <img src="../img/logo.svg" alt="Логотип" width="104" height="26">
+                        </a>
+                    </li>
+                    <li class="contacts__item footer__item">
+                        <a href="tel:84994504797" class="contacts__link footer__link">8 (499) 450-47-97</a>
+                    </li>
+                    <li class="contacts__item footer__item">
+                        <a href="mailto:info@conquest.watch.ru" class="contacts__link footer__link">info@conquest.watch.ru</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about-company footer__block">
+                <h3 class="about-company__title footer__title">О компании</h3>
+                <ul class="about-company__list footer__list">
+                    <li class="about-company__item footer__item">
+                        <a href="#" class="about-company__link footer__link">Наши магазины</a>
+                    </li>
+                    <li class="about-company__item footer__item">
+                        <a href="#" class="about-company__link footer__link">Вакансии</a>
+                    </li>
+                    <li class="about-company__item footer__item">
+                        <a href="#" class="about-company__link footer__link">Сертификаты</a>
+                    </li>
+                    <li class="about-company__item footer__item">
+                        <a href="#" class="about-company__link footer__link">Отзывы</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="for-buyers footer__block">
+                <h3 class="for-buyers__title footer__title">Покупателям</h3>
+                <ul class="for-buyers__list footer__list">
+                    <li class="for-buyers__item footer__item">
+                        <a href="#" class="for-buyers__link footer__link">Каталог товаров</a>
+                    </li>
+                    <li class="for-buyers__item footer__item">
+                        <a href="#" class="for-buyers__link footer__link">Как заказать?</a>
+                    </li>
+                    <li class="for-buyers__item footer__item">
+                        <a href="#" class="for-buyers__link footer__link">FAQ</a>
+                    </li>
+                    <li class="for-buyers__item footer__item">
+                        <a href="#" class="for-buyers__link footer__link">Корпоративным клиентам</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="payment-and-delivery footer__block">
+                <h3 class="payment-and-delivery__title footer__title">Оплата и доставка</h3>
+                <ul class="payment-and-delivery__list footer__list">
+                    <li class="payment-and-delivery__item footer__item">
+                        <a href="#" class="payment-and-delivery__link footer__link">Способы оплаты</a>
+                    </li>
+                    <li class="payment-and-delivery__item footer__item">
+                        <a href="#" class="payment-and-delivery__link footer__link">Время доставки</a>
+                    </li>
+                    <li class="payment-and-delivery__item footer__item">
+                        <a href="#" class="payment-and-delivery__link footer__link">Гарантии и ремонт</a>
+                    </li>
+                    <li class="payment-and-delivery__item footer__item">
+                        <a href="#" class="payment-and-delivery__link footer__link">Возврат и компенсация</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
